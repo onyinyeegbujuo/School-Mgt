@@ -3,6 +3,7 @@ import { FaCircleArrowRight, } from "react-icons/fa6";
 import { IoPeople } from 'react-icons/io5';
 import { LuBookType } from 'react-icons/lu';
 import { MdOutlineSubject, MdPayments } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 
 const Dashboard = () => {
@@ -18,7 +19,7 @@ const Dashboard = () => {
             <div className='flex lg:flex-row flex-col items-center justify-between p-8 gap-6'>
               <div className='w-[140px] bg-body rounded-md text-center px-4 py-4'>
                 <IoPeople className='text-4xl'/>
-                <h1 className='text-xl'>Profile</h1>
+                <h1 className='text-xl'><Link to='/student_details'>profile</Link></h1>
               </div>
               <div className='w-[140px] bg-body rounded-md text-center px-4 py-4'>
                 <MdOutlineSubject className='text-4xl'/>

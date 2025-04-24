@@ -3,7 +3,7 @@
  import AboutImage2 from "../assets/images/colored-attire.jpg";
  import PrinciImage from "../assets/images/christina-morrillo.jpg";
  
- const Index = () => {
+ const Home = () => {
    return (
     <>
       {/* Hero Section */}
@@ -113,4 +113,4 @@
    )
  }
  
- export default Index
+ export default Home

@@ -35,12 +35,12 @@ const sidebar = ({ onClose = () => {} }) => {
                 </button>
 
                 <span className=" ">
-                <h1 className="font-semi-bold">Elementary School Anywhere</h1>
+                <h1 className="font-bold mb-3 text-lg">Elementary School Anywhere</h1>
                 </span>
         </section>
 
         <section className='flex-grow w-full px-2'>
-            <ul className='space-y-1'>
+            <ul className='space-y-1 px-3'>
                 {active_user.role === 'admin' && (
                   <>
 

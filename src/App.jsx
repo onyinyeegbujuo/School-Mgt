@@ -1,7 +1,7 @@
  import { BrowserRouter, Routes, Route } from "react-router-dom"
  import GuestLayout from "./layouts/GuestLayout"
 import About from "./pages/About"
-import Index from "./pages"
+import Home from "./pages/Home"
 import AppLayout from "./layouts/AppLayout"
 import AuthLayout from "./layouts/AuthLayout"
 
@@ -44,7 +44,7 @@ const App = () => {
         <Routes>
           {/* This is guest page route*/}
           <Route element={<GuestLayout />}>
-            <Route path="/" element={<Index />} />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About/>} />
           </Route>
 
